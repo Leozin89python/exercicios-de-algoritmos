@@ -1,0 +1,12 @@
+package com.br.pattern;
+
+import com.br.fabric.ClientFabric;
+
+public class Factory {
+
+	public static void main(String[] args) {
+		ClientFabric fabric = new ClientFabric();
+		fabric.clients("BRAZIL", "Marcus", "pt-br", 22);
+		fabric.clients("english", "Mauricio", "english", 33);
+	}
+}

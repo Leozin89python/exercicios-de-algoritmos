@@ -1,0 +1,128 @@
+body{
+  margin: 0;
+  background-color: whitesmoke;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.header{
+  background: linear-gradient(45deg, gold 45%, yellow 55%);
+  margin-top: -22px;
+  height: 5em;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.store{
+  margin-top: 4%;
+  text-shadow: 1px 1px 1px white;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.form{
+  height: 20em;
+}
+.linha1{
+  margin-top: 5em;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.linha2{
+  margin-top: 2em;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.put1{
+  margin-left: 2%;
+  height: 5em;
+  width: 45%;
+}
+.put2{
+ margin-right: 2%; 
+ height: 5em;
+ width: 45%;
+}
+.put3{
+  margin-top: 40px;
+  margin-left: 2%;
+  width: 95.5%;
+  height: 5em;
+}
+.put1,.put2,.put3{
+  outline:solid blanchedalmond 1px;
+  border-radius: 6px;
+}
+.check{
+  margin-top:40px;
+  margin-left: 2%;
+  width: 50%;
+  height: 2em;
+  outline:solid blanchedalmond 1px;
+}
+.enviar{
+  margin-left:22%;
+  margin-right:3%;
+  height: 10%;
+  width: 8em;
+  background: linear-gradient(45deg, green 45%, darkgreen 55%);
+  color: white;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  box-shadow: 3px 3px 3px black;
+
+  transition-property: box-shadow ;
+  transition-duration: 0.5s;
+}
+.enviar:hover{
+   box-shadow: 1px 1px 1px black;
+}
+.limpar{
+  height: 10%;
+  width: 8em;
+  background: linear-gradient(45deg, red 45%, darkred 55%);
+  color: white;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  box-shadow: 3px 3px 3px black;
+
+  transition-property: box-shadow ;
+  transition-duration: 0.5s;
+}
+.limpar:hover{
+   box-shadow: 1px 1px 1px black;
+}
+
+@media(max-width:700px){
+
+    .linha1,.linha2{
+      
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    .put1,.put2{
+      margin:0;
+      width: 80%;
+    }
+    .put2{
+      margin-top: 20px;
+    }
+    .put3{
+      margin:0;
+      margin-top: 20px;
+      margin-left: 9%;
+      margin-right: 38px;
+      width: 81%;
+    }
+    .check{
+      margin-left: 25%;
+    }
+    .enviar, .limpar{
+      margin-top: 40px;
+      margin-bottom: 40px;
+    }
+}
+

@@ -1,0 +1,24 @@
+.table{
+  margin-top: -8px;
+  text-align: center;
+  background: linear-gradient(45deg, gold 45%, yellow 55%);
+  height: 50px;
+  padding: 2%;
+}
+.tabela{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.registro{
+  border: 3px solid black;
+  border-radius: 5px;
+  font-family: fantasy;
+}
+.cabecalho{
+  background: linear-gradient(45deg, red 45%, darkred 55%);
+  color: white;
+  font-size: larger;
+}

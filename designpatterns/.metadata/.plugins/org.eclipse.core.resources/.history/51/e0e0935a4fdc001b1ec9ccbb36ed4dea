@@ -1,0 +1,20 @@
+package com.br.fabric;
+
+import com.br.entities.Brazil;
+
+public class ClientFabric {
+	
+	protected String name;
+	protected String language;
+	protected int cash;
+	
+	public void clients(String country) {
+		if(country.equalsIgnoreCase("brazil")) {
+			Brazil citizen = new Brazil();
+			citizen.brazilian(name,language,cash);
+		}else {
+			System.out.println("not finished yet!");
+		}
+	}
+	
+}
